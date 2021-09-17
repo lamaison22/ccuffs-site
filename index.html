@@ -1,44 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" >
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<link rel="stylesheet" href="style.css">
-	<title>Página João Lamaison</title>
-	<div id="pai" class="jumbotron text-center">
-	<h1>É o pai</h1>
-	</div>
-	<div class="container">
-		
-	
-	<div id="infos">
-		<h4>Olá eu me chamo João Lamaison e essa é minha página
-			
-			<img id="eu" src="eu.jpg" class="rounded-circle" alt="">
-			<p></p>
-			<p>Informações importantes sobre mim: </p>
-			<ul>
-				<li>
-					Tenho 20 anos
-				</li>
-				<li>
-					Atualmente curso CC na UFFS
-				</li>
-			</ul>
-			<p> Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis est necessitatibus recusandae esse architecto, voluptatum atque, pariatur! Suscipit nam dolores, excepturi nemo molestiae alias accusantium perferendis, non impedit, maiores, dolorem.</p>
-			</h4>
-	</div>		
-		
-	</div>
-
-	<div class="container">
-				<h3>Redes Sociais</h3>
-				<p><a href="https://www.instagram.com/joaolamaison/"><i class="fab fa-instagram"></i> Chama no insta</a></p>
-	</div>	
-
+  <title>Página João Lamaison</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
 </head>
 <body>
+
+<div id="cabecalho"class="jumbotron text-center" style="margin-bottom:0">
+  <h1 style="color: white;">João Pedro Lamaison</h1>
+  <p style="color: white; font-size: 24px;">Calouro do curso de CC</p> 
+</div>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Sobre mim</h2>
+     
+        <img id="eu" class="rounded-circle" src="eu.jpg" alt="">      <p>Olha eu ai.</p>
+      <h3>Linkzada</h3>
+      <p>Redes Sociais</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+         <a href="https://www.instagram.com/joaolamaison/"><i class="fab fa-instagram"></i> Chama no insta</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://twitter.com/47Lamaison"><i class="fab fa-twitter"></i> Chama no tt do pai</a>
+        </li>
+        <li class="nav-item">
+           <a href="https://www.last.fm/user/lamaison22"><i class="fab fa-spotify"></i> Last.fm</a>
+        </li>
+        <li class="nav-item">
+          <i class="fab fa-whatsapp"></i> (49) 99137-6658
+        </li>
+        
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2 class="hResumo">Resumo</h2>
+      <h5>Última vez atualizado 17/09/2021</h5>
+      <div class="resumo">
+      <h4>Vida</h4>
+      <p>Nascido em 27/07/2001, atualmente tenho 20 anos, estudei a vida inteira em escolas públicas, desde o colégio Bom Pastor, passando pelo IFSC e atualmente estudo na UFFS. Sempre vivi em Chapecó e a princípio não tenho planos de me mudar. Tive o primeiro contato com programação durante meu ensino médio e inicei com Pascal na época (depressão).</p>
+      <br>
+      </div>
+      <h2 class="hResumo">O que eu gosto de fazer no tempo livre</h2>
+      <h5>Última vez atualizado 17/09/2021</h5>
+      <div class="resumo">
+      <p>Caras eu curto jogar, treinar, ler, ouvir musica, cozinhar e >>programar..<<, enfim, de jogos ultimamente eu tenho jogado mais LoL porém sou mais adepto ao Dota que nem o Andrei (eu sei que ele jogaa !!!) mas se quiserem chamar pra qlqr coisa tamo ai, honestamente n tenho tido mt tempo pra ler, descobri varias músicas novas show, costumo ir na academia três vezes por semana se pudesse iria mais e domingo as vezes jogo um fut com a rapazeada (só os pernas de pau permitidos)  </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.320575445434!2d-52.70950878444754!3d-27.114711024573786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fb4b2bbbd96a4b%3A0x5871f4d6809cb67e!2sUniversidade%20Federal%20da%20Fronteira%20Sul%2C%20Campus%20Chapec%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1631900100888!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
 </body>
 </html>

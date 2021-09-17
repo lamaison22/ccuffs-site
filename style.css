@@ -1,40 +1,31 @@
-	
 #eu{
 
 	height: 250px;
 	width: 250px;
-	float: right;
-	margin-right: 30px;
-}
-#infos{
-	background-color: darkgrey;
-}
+	
+	}
 
-i{
-	color: black;
-	font-size: 25px;
-	margin-bottom: 0;
+	
+.resumo{
+	font-family: times,serif;
+	font-size: 23px;
+	background-color: lightgrey;
 }
-a{
-	color: black;
-	font-family: arial;
-	font-size: 20px;
+.hResumo{
+	 font-family: helvetiva, sans-serif;
+	 border-bottom: 1px, solid,black;
+	 text-shadow: 0 0 3px black;
 }
-body{
-	background-color: lightblue;
-}
-#pai{
-	height: 50px;
-}
-#pai h1{
-	color: red;
+#cabecalho{
+	background-image: url("paprika.png");
+	background-size: cover;
+	 
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 50%;
+	 height: auto;
+	 
 
-	text-align: center;
-}
-#foto{
 
-	z-index: 1;
-}
-div .container{
-	float: right;
+	background-repeat: no-repeat;
 }
